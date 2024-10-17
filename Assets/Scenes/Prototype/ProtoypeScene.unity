@@ -131,6 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 93788795}
+  - component: {fileID: 93788799}
   - component: {fileID: 93788796}
   - component: {fileID: 93788797}
   - component: {fileID: 93788798}
@@ -294,6 +295,21 @@ CapsuleCollider:
   m_Height: 2.020257
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &93788799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93788794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256ef2f4deb61d749b9cee765e59ca08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sheatedSword: {fileID: 1455770914}
+  unsheatedSword: {fileID: 1763961147}
+  switchBool: 1
 --- !u!1 &119008525
 GameObject:
   m_ObjectHideFlags: 0
